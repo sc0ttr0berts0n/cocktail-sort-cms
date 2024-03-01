@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "strapi build",
-    "build-for-production": "NODE_ENV=production npm run build",
+    "build-for-production": "NODE_ENV=production; npm run build",
     "develop": "strapi develop",
     "start": "strapi start",
     "strapi": "strapi"
